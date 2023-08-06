@@ -6,25 +6,14 @@
 HOW TO RUN WEB APP:
 1. Install dependencies using `npm i`
 2. Populate the DB using
-    1. `npm run pop1`
+    1. `node pop.js`
     2. Terminate manually
-    3. `npm run pop2`
+    3. `node hashAll.js`
     4. Terminate manually
 3. Run the web app using `npm run start`
 4. Enter "http://localhost:3000/" in the browser address bar
 5. Enjoy
-=======
-NOTE:   
-    - Make sure to have a working 
-    - Collections should still be manually imported to MongoDB.
-        - Obtain the JSON files of the pre-existing collections in 'db_data_init' folder
-        - Using MongoDB Compass, import the file collections to the database "apdev_test"
->>>>>>> f5d61038973dc27714ab771f8c162ff6e2b84282
 
-    - To run the website
-        - Start the server using "npm start" command
-        - Enter "http://localhost:3000/cafebara/" in the browser url to open index.html (guest-view)
-    
 -----------------------------------------------------------------------
 
 The following describes the features of a restaurant / store / service review web application. Groups may choose to either develop a review web application for either restaurants, stores, or services. For realism, groups may base the establishments featured in the application from actual establishments that are found around the campus. The minimum features required to be implemented for this project is as follows:
